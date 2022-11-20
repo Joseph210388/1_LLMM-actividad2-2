@@ -1,16 +1,14 @@
 
 form{
     margin: 43px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;   
 }
-
+/* para que la parte de select se ve de otras forma */
 select {
     appearance: none;
-
 }
 
-/* boton */
+/* estilo de boton */
 
 form button {
     background: #eec265;
@@ -26,3 +24,6 @@ form button:focus {
     transition: background-color 1s ease-out;
     outline: 0;
 }
+
+
+/* Se pensaba poner mas estilos pero decidi al final hacer una pagina basica */
