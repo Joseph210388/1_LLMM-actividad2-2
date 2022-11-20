@@ -1,6 +1,8 @@
+/* Estilos que siguen todas las paginas del sitio web */
+
 /* Body */
 body{
-    background-color: rgb(245, 212, 153);
+    background-color: rgb(245, 212, 153);  /* Fondo de color */
 }
 /* Fin de Body */
 
@@ -90,7 +92,7 @@ label{
 /* Fin de los estilos*/
 
 /* //////////////////////////////////////////////////////// */
-
+/* PARTE DE ingredientes.html y la pagina de cada ingrediente */
 /* Ingrediente img */
 ul img{
     width: 275px;
@@ -130,3 +132,5 @@ ul img{
     border: 2px solid #111;
     color: #111;
 }
+/* Fin del boton */
+/* Fin de ingredientes */
