@@ -1,0 +1,102 @@
+/* Body */
+body{
+    background-color: rgb(245, 212, 153);
+}
+/* Fin de Body */
+
+/* //////////////////////////////////////////////////////////// */
+
+/* div */
+div{
+    margin: auto;
+    width: 80%; 
+    padding: 50px;
+    background-color: aliceblue;
+}
+/* fin de div */
+
+/* /////////////////////////////////////////////////////////// */
+
+/* Titulo */
+h1{
+    text-align: center;
+    font-family: monospace;
+    padding: 10px;
+}
+/* Fin de Titulo */
+
+/* ///////////////////////////////////////////////////////// */
+
+/* Barra de navegación */
+.nav {
+    list-style-type: none;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+.nav li{
+    float: left;
+}
+
+.nav li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav li a:hover {
+    background-color: #111;
+  }
+
+/* Fin de la barra de navegación */
+
+/* ///////////////////////////////////////////////////////// */
+
+/* Imagen de index */
+
+.img_inicio{
+    width: 480px;
+    padding: 27px;
+    display:block;
+    margin:auto;
+}
+
+/* Fin de la imagen de index */
+
+/* ///////////////////////////////////////////////////////// */
+
+/* estilo de letra*/
+
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+li{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 2px;
+}
+label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Fin de los estilos*/
+
+/* //////////////////////////////////////////////////////// */
+
+/* Ingrediente img */
+ul img{
+    width: 275px;
+    height: 183px;
+}
+.ingre_text{
+    margin: 10px;
+}
+/* fin de ingrediente */
