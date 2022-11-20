@@ -1,0 +1,28 @@
+
+form{
+    margin: 43px;
+    box-sizing: border-box;
+    
+}
+
+select {
+    appearance: none;
+
+}
+
+/* boton */
+
+form button {
+    background: #eec265;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+form button:hover,
+form button:focus {
+    background: #dd6502;
+    color: #fff;
+    transition: background-color 1s ease-out;
+    outline: 0;
+}

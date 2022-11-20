@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Cocina</title>
-    <link rel="stylesheet" href="/css/style.css"">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style_form.css">
 
         <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,35 +28,43 @@
         </ul>
     </nav>
     
-    <h2>Contacto</h2>
-    <!-- p -->
-    <p>Mandanos tus comentarios para mejorar la pagina</p>
-
-    <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
-    <form action="" method="post">
-        <label for="name">Nombre</label><br>
-        <input type="text" name="name" id="name" ><br><br>
-
-        
-        <label for="correo">Correo</label><br>
-        <input type="email" name="correo" id="correo"><br><br>
-
-        <label for="contact_tip">Tipo dea contacto</label><br>
-        <select name="contact_tip" id="contact_tip">
-            <option value="consulta">Consulta</option>
-            <option value="sugerencia">Sugerencia</option>
-            <option value="corrección">Corrección</option>
-        </select><br><br>
-        
-        <label for="comment">Comentario</label><br>
-        <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br><br>
-
-        <input type="checkbox" name="checkbox" id="checkbox">
-        <label for="checkbox">Aceptar condiciones de servicio</label><br><br>
+    <center>
+        <h2>Contacto</h2>
+        <!-- p -->
+        <p>Mandanos tus comentarios para mejorar la pagina</p>
+    </center>
 
 
-        <button>Enviar</button>
-    </form>
+        <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+        <form action="">
+                    <label for="name">Nombre</label><br>
+                    <input type="text" name="name" id="name" placeholder="Tu nombre"><br><br>
+
+                    <label for="correo">Correo</label><br>
+                    <input type="email" name="correo" id="correo" placeholder="Tu correo"><br><br>
+
+
+            <label for="contact_tip">Tipo de contacto</label><br>
+            <select name="contact_tip" id="contact_tip">
+                <option selected disabled>-- Escoje una opción--</option>
+                <option value="consulta">Consulta</option>
+                <option value="sugerencia">Sugerencia</option>
+                <option value="corrección">Corrección</option>
+            </select><br><br>
+
+            <p class="mensaje">
+                <label for="comment">Comentario</label><br>
+                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Escriba el comentario..."></textarea><br><br>
+            </p>
+            
+            <input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Aceptar condiciones de servicio</label><br><br>
+
+            <p class="boton_form">
+                <button>Enviar</button>
+            </p>
+        </form>
+
     </div>
     
 </body>
