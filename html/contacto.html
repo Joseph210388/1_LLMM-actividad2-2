@@ -1,5 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog de Cocina</title>
+    <link rel="stylesheet" href="/css/style.css"">
+
+        <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
 <!-- Página con un formulario de contacto -->
-<!-- h1 -->
-<!-- p -->
-<!-- Enlaces a index, ingredientes, pasos y contacto -->
-<!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+<body>
+    <div>
+        <!-- h1 -->
+        <h1>Blog de Cocina</h1>
+    <nav>
+        <!-- Enlaces a index, ingredientes, pasos y contacto -->
+        <ul class="nav">
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./pasos.html">Pasos</a></li>
+            <li><a href="./ingredientes.html">Ingredientes</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    
+    <h2>Contacto</h2>
+    <!-- p -->
+    <p>Mandanos tus comentarios para mejorar la pagina</p>
+
+    <!-- formulario: nombre, email, seleccionar entre consulta/sugerencia/corrección, comentario, aceptar política de privacidad, enviar-->
+    <form action="" method="post">
+        <label for="name">Nombre</label><br>
+        <input type="text" name="name" id="name" ><br><br>
+
+        
+        <label for="correo">Correo</label><br>
+        <input type="email" name="correo" id="correo"><br><br>
+
+        <label for="contact_tip">Tipo dea contacto</label><br>
+        <select name="contact_tip" id="contact_tip">
+            <option value="consulta">Consulta</option>
+            <option value="sugerencia">Sugerencia</option>
+            <option value="corrección">Corrección</option>
+        </select><br><br>
+        
+        <label for="comment">Comentario</label><br>
+        <textarea name="comment" id="comment" cols="30" rows="10"></textarea><br><br>
+
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">Aceptar condiciones de servicio</label><br><br>
+
+
+        <button>Enviar</button>
+    </form>
+    </div>
+    
+</body>
+</html>
+
+
